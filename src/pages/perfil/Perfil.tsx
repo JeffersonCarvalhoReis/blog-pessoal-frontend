@@ -30,13 +30,13 @@ function Perfil() {
                             usuario.foto ||
                             "https://ik.imagekit.io/2zvbvzaqt/usuario.png"
                         }
-                        className="rounded-full aspect-square object-cover w-56 mx-auto mt-[-8rem] border-8 border-white relative z-10"
+                        className="rounded-full aspect-square object-cover w-56 mx-auto -mt-32 border-8 border-white relative z-10"
                         alt={`Foto de perfil de ${usuario.nome}`}
                     />
                 </Link>
 
                 <div
-                    className="relative mt-[-6rem] h-72 flex flex-col 
+                    className="relative -mt-24 h-72 flex flex-col 
                     bg-sky-500 text-white text-2xl items-center justify-center"
                 >
                     <p>Nome: {usuario.nome} </p>
