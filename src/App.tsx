@@ -54,10 +54,10 @@ function App() {
                                 path="/deletartema/:id"
                                 element={<DeletarTema />}
                             />
-                            <Route
+                           <Route
                                 path="/postagens"
                                 element={<ListaPostagens />}
-                            />
+                            /> 
                             <Route
                                 path="/cadastrarpostagem"
                                 element={<FormPostagem />}
